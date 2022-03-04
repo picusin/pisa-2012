@@ -1,17 +1,18 @@
 # PISA Data 2012
 ## by Miguel Orellana
 
+This was the fifth and last project of Udacity's Data Analyst Nanodegree.
 
 ## Dataset
 
 PISA is a survey that examines students from compulsory education on how well prepared they are for life after school. This investigation focuses on the PISA Survey from 2012, with data belonging to around 500K students from 65 different countries.
 
-The file provided by Udacity for this dataset, pisa2012.csv, contained data from a total of 485'490 rows (students), grouped in 636 columns.
+The file provided by Udacity for this dataset contained data from a total of 485'490 students, grouped in 636 columns.
 The dataset contains not only the results from the exam in each category, but also lots of information on the students' background, including variables like country of residence, number of family members and their level of education, possessions or access to different facilities at home and at school.
 
 The main feature of this dataset is the score obtained by the students in each discipline and the potential for understanding how a number of different background factors can impact these scores and therefore the level of preparation for students around the world.
 
-Analyzing such a complex dataset entirely would require a lot of time. For this project, I simplified the dataset keeping only the following selection of background variables:
+Analyzing such a complex dataset entirely requires a lot of time. For this project, I simplify the dataset by keeping only the following selection of background variables:
 
 - Student's country of residence.
 - Student's country economic level (OECD or not).
@@ -19,23 +20,23 @@ Analyzing such a complex dataset entirely would require a lot of time. For this 
 - Student's parents' level of education.
 - Access to internet at school and at home.
 
-In addition to these independent variables I kept the results for the three main disciplines, mathematics, reading and science.
+In addition to these independent variables I keep the results for the three main disciplines: mathematics, reading and science.
 
 ## Summary of Findings
 
 The exploratory analysis provided the following findings:
 
-1. The 3 score variables follow a clear normal distribution, with a range between 200 and 800 points each.
+1. The 3 score variables follow a clear normal distribution, ranging from 200 to 800 points each.
 2. Not all countries are equally represented in the survey. While many of the 65 countries in the dataset have a similar number of entries (between 0.9 and 1.5% of the survey population each), about 15 of them go significantly above or below these values.
-3. The 3 score variables show a linear correlation. This correlation is slightly weaker between math and reading scores.
-4. No clear relationship was found between student's gender and their scores, with the exception of reading, where female students seemed to perform better than male students.
-5. Students from OECD countries presented better results in the exams.
-6. Students' whose parents had a higher level of education also obtained better scores.
-7. The use of internet at school doesn't seem to provide better test results. On the contrary, in non-OECD countries, students who claimed to use internet at school showed slightly lower performance in all 3 disciplines.
+3. The 3 score variables show a linear correlation. This correlation is slightly weaker between math and reading scores adn stronger between math and science scores.
+4. No clear relationship is found between student's gender and their scores, with the exception of reading, where female students seem to perform better than male students.
+5. Students from OECD countries present better results in the exams.
+6. Students' whose parents have a higher level of education also obtain better scores.
+7. The use of internet at school doesn't seem to provide better test results. On the contrary, in non-OECD countries, students who claim to use internet at school show slightly lower performance in all 3 disciplines.
 
 
 ## Key Insights for Presentation
 
-For this presentation, I will first show the correlation between the scores obtained by students in each of the 3 disciplines. We'll see this through a series of 3 scatterplots comparing each discipline to the other two.
+In the presentation, I first show the correlation between the scores obtained by students in each of the 3 disciplines. We see this through a series of scatterplots comparing each discipline to the other two.
 
-Afterwards, I'll focus on the relationship between each of the 4 background independent variables with the scores, using the violin and box plots obtained in the exploratory visualization. No modification is done to any of the plots.
+Afterwards, I focus on the relationship between each of the 4 background independent variables with the scores, using the violin and box plots obtained in the exploratory visualization. No modification is done to any of the plots.
