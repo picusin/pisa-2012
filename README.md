@@ -28,7 +28,7 @@ The exploratory analysis provided the following findings:
 
 1. The 3 score variables follow a clear normal distribution, ranging from 200 to 800 points each.
 
-![Score distribution](https://github.com/picusin/pisa-2012/blob/master/images/fig1.jpg?raw=true)
+![Score distribution](https://github.com/picusin/pisa-2012/tree/master/images/fig1.jpg?raw=true)
 
 2. Not all countries are equally represented in the survey. While many of the 65 countries in the dataset have a similar number of entries (between 0.9 and 1.5% of the survey population each), about 15 of them go significantly above or below these values.
 3. The 3 score variables show a linear correlation. This correlation is slightly weaker between math and reading scores adn stronger between math and science scores.
