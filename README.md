@@ -27,6 +27,9 @@ In addition to these independent variables I keep the results for the three main
 The exploratory analysis provided the following findings:
 
 1. The 3 score variables follow a clear normal distribution, ranging from 200 to 800 points each.
+
+![Score distribution][./images/fig1.jpg "Score distribution"]
+
 2. Not all countries are equally represented in the survey. While many of the 65 countries in the dataset have a similar number of entries (between 0.9 and 1.5% of the survey population each), about 15 of them go significantly above or below these values.
 3. The 3 score variables show a linear correlation. This correlation is slightly weaker between math and reading scores adn stronger between math and science scores.
 4. No clear relationship is found between student's gender and their scores, with the exception of reading, where female students seem to perform better than male students.
