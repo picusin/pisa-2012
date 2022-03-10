@@ -31,11 +31,28 @@ The exploratory analysis provided the following findings:
 ![Score distribution](/images/fig01.jpg)
 
 2. Not all countries are equally represented in the survey. While many of the 65 countries in the dataset have a similar number of entries (between 0.9 and 1.5% of the survey population each), about 15 of them go significantly above or below these values.
+
+![Score distribution](/images/fig03.jpg)
+
 3. The 3 score variables show a linear correlation. This correlation is slightly weaker between math and reading scores adn stronger between math and science scores.
+
+![Score distribution](/images/fig08.jpg)
+
 4. No clear relationship is found between student's gender and their scores, with the exception of reading, where female students seem to perform better than male students.
+
+![Score distribution](/images/fig09.jpg)
+
 5. Students from OECD countries present better results in the exams.
+
+![Score distribution](/images/fig12.jpg)
+
 6. Students' whose parents have a higher level of education also obtain better scores.
+
+![Score distribution](/images/fig14.jpg)
+
 7. The use of internet at school doesn't seem to provide better test results. On the contrary, in non-OECD countries, students who claim to use internet at school show slightly lower performance in all 3 disciplines.
+
+![Score distribution](/images/fig17.jpg)
 
 
 ## Key Insights for Presentation
