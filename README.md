@@ -1,5 +1,4 @@
 # PISA Data 2012
-## by Miguel Orellana
 
 This was the fifth and last project of Udacity's Data Analyst Nanodegree.
 
